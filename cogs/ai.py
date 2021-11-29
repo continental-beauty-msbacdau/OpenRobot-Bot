@@ -1141,8 +1141,9 @@ AI: 5 times 6 is 30"""
                 raise e
 
             return await ctx.send(
-                "Something wen't wrong while aquiring the supported languages for translation from our API."
+                "Something went wrong while aquiring the supported languages for translation from our API."
             )
 
 def setup(bot):
     bot.add_cog(AI(bot))
+    bot.add_cog(Ai_slash(bot))
