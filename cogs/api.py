@@ -5,6 +5,7 @@ import asyncpg
 import json
 import datetime
 import humanize
+from .utils import slash_utils
 from secrets import token_urlsafe as generate_token
 from discord.ext import commands
 from cogs.utils import (
