@@ -1,6 +1,7 @@
 import discord
 import openai
 import json
+from .utils import slash_utils
 import aiohttp
 import random
 from io import StringIO, BytesIO
